@@ -1,3 +1,0 @@
-token:
-  expiration_date: 86400000
-  secret: user_token_default
