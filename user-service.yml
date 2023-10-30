@@ -3,9 +3,5 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb
 
-token:
-  expiration_date: 86400000
-  secret: "{cipher}d029aaa0942d3e75063af8a8f400cbc478b9788e7af95d67fceb6e75436836a07a4c3b566531f60d3dd4a1b2f19ffb43"
-
 order_service:
   url: http://127.0.0.1:8000/order-service/%s/orders
